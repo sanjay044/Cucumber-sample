@@ -25,6 +25,7 @@ public class TestRunnerClass {
 @AfterClass
 public static void report() {
 	ReportingClass.generateReport("target\\jsonReport.json");
+	System.out.println();
 }
 
 }
